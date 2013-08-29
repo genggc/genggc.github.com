@@ -37,6 +37,15 @@ hname {color:#4088b8; font-size:1.6em; letter-spacing:0px; margin:0 0 0px 0px; f
 #sidebar ul ul li a {font-weight:400;}
 #sidebar h2 {}
 
+/* Updatebar */
+#updatebar {float:left; line-height:1.4em; margin:0 0 5px; padding:1px 0 0; width:195px;}
+#updatebar ul {font-size:0.9em; list-style:none; margin:0; padding:0 0 15px 10px;}
+#updatebar li {list-style:none; margin:0 0 4px; padding:0;}
+#upadtebar li a {font-size:0.9em; font-weight:700; padding:2px;}
+#updatebar ul ul {line-height:1.2em; margin:4px 0 3px 15px; padding:0;}
+#updatebar ul ul li a {font-weight:400;}
+#updatebar h2 {}
+
 /* Main content */
 #content {float:right; line-height:1.5em; margin:0 0 5px; padding:1px 0 0; text-align:justify; width:550px;}
 #contentleft {float:right; line-height:1.5em; margin:0 0 5px; padding:1px 0 0; text-align:left; width:550px;}
@@ -49,7 +58,8 @@ hname {color:#4088b8; font-size:1.6em; letter-spacing:0px; margin:0 0 0px 0px; f
 #footer a {color:#808080;}
 
 /* Additional classes */
-.box {background:#4088b8; border:1px solid #c8c8c8; color:#fff; font-size:1.0em; line-height:1.6em; padding:10px 10px 10px 13px;}
+.box {float:left; background:#4088b8; border:1px solid #c8c8c8; color:#fff; font-size:1.0em; line-height:1.6em; padding:10px 10px 10px 13px;}
+.cbox {background:#F0F0F0; border:1px solid #c8c8c8; color:gray; font-size:1.1em; line-height:1.6em; padding:10px 10px 10px 13px;}
 .box a {color:#f0f0f0;}
 .left {float:left; margin:0 15px 4px 0;}
 .right {float:right; margin:0 0 4px 15px;}
